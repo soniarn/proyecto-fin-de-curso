@@ -5,7 +5,9 @@ basic.forever(function () {
     lectura,
     1023
     )
-    if (true) {
-    	
+    if (input.buttonIsPressed(Button.A)) {
+        basic.clearScreen()
+        basic.pause(100)
+        basic.showNumber(lectura)
     }
 })
